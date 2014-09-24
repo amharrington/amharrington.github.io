@@ -1,5 +1,7 @@
 
-img	{
-	float:left;}
-img	{
-	float:right;}
+h4	{color:Brown;}
+h3  {color:Orange;}
+
+img.floatLeft	{float:left;}
+img.floatRight	{float:right;}
+
