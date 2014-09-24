@@ -2,6 +2,9 @@
 h4	{color:Brown;}
 h3  {color:Orange;}
 
+h4	{float:left;}
+h3	{float:right;}
+
 img.floatLeft	{float:left;}
 img.floatRight	{float:right;}
 
