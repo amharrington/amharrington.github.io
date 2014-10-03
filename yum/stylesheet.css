@@ -49,4 +49,57 @@ table {
 
 /* END OF RESET - Start of Your CSS*/
 
-body{color:red;}
+
+body{color:black;}
+.vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+h2{background:black;
+	text-align:center;
+	padding-top:8px;
+	padding-right:8px;
+	padding-bottom:8px;
+	padding-left:8px;
+	border:white;
+	border-radius:10px;
+	font-family:Helvetica;
+	color:white;
+	text-transform:uppercase;}
+	
+	#needed li {
+		float:left;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
