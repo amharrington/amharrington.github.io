@@ -49,6 +49,72 @@ table {
 
 /* END OF RESET - Start of Your CSS*/
 
-h4{color:blue;}
+h1 {
+	text-align:center;
+	padding:20px;
+}
 
- 
+h4 {
+	font-weight:bold;
+	font-size:1.5em;
+}
+#nav a {
+	font-size:1.5em;
+	font-weight:bold;
+	padding:20px;
+	margin:50px;
+	color:black;
+	width:100%;
+	margin:0 auto;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+
+#nav ul li {
+	display:inline;
+	border:black;
+	margin:0 auto;
+}
+
+#nav{
+	padding:10px;
+	
+	height:20px;
+	width:960px;
+	text-align:center;
+	border-top:4px solid black;
+	border-bottom:4px solid black;
+}
+
+body {
+	margin:0 auto;
+	width:960px;
+}
+
+.dogs{
+	float:left;
+	width:50%;
+}
+
+.cats{
+	float:left;
+	width:50%;
+}
+
+#post-footer{
+	clear:both;
+	border-top:4px solid black;
+}
+
+.imgcopy{
+	float:left;
+}
+
+.copyright {
+	float:right;
+}
+
+.highlight{
+	color:red;
+}
