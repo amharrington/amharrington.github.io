@@ -54,7 +54,9 @@ h1{
 	left:350px;
 }
 
-body{color:black;}
+body{color:black;
+	width:1199px;
+}
 
 h2{background:black;
 	width:800px;
@@ -73,54 +75,14 @@ h2{background:black;
 	left:200px;
 }
 	
-	#needed li {
-		float:left;
+	li{
+		display:inline;
 		text-transform:uppercase;
 		font-family:helvetica;
-		margin:20px;
-		position:relative;
-		bottom:120px;
-		right:400px;
-	}
-	
-	#content {
-		width:1000px;
-		height:1000px;
-		position:relative;
 		
-	}
 	
-	h3 {
-		text-transform:uppercase;
-		font-family:helvetica;
-		letter-spacing:2px;
-		position:relative;
-		top:130px;
-		left:200px;
-	}
+		
 	
-	 ul{
-		position:relative;
-		top:140px;
-		left:200px;
-	}
-
-	h4{
-		text-transform:uppercase;
-		font-family:helvetica;
-		letter-spacing:2px;
-		position:relative;
-		left:520px;
-	}
-	
-	ol{
-		margin:100px;
-		position:relative;
-		left:420px;
-		bottom:90px;
-	}
-
-
 
 
 
