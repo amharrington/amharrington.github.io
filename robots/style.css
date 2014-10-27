@@ -77,9 +77,55 @@ margin:0 auto;
 width:500px;
 }
 
+#main-menu ul, li {
+	display:inline;
+}
+
 #article {
 	margin:0 auto;
 	width:100%;
+}
+
+
+body {
+	width:1246px;
+	height:841px;
+}
+
+
+#main-menu {
+background-color: saddlebrown;
+margin:0 auto;
+width:100%;
+}
+
+#page {
+float: left;
+background-color: white;
+padding: 5% 5% 5% 10%;
+width: 40%;
+}
+
+
+
+#sidebar{
+	color: saddlebrown;
+	float: right;
+	background-color: white;
+	width: 20%;
+	padding: 5% 10% 5% 0%;
+}
+
+#sidebar ul {
+	display: block;
+	list-style-type: disc;
+	width:249px;
+	height:200px;
+	
+}
+
+a {
+text-decoration: none;
 }
 
 
