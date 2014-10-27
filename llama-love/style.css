@@ -52,4 +52,59 @@ table {
 
 /* -----------------END RESET---------------- */
 
+body{
+	margin:0 auto;
+	width:1292px;
+}
 
+h1 {
+	font-size:30px;
+	line-height:30px;
+	font-family:helvetica;
+	font-weight:bold;
+}
+
+h2 {
+	font-family:helvetica;
+	color:gray;
+}
+
+img{
+	float:left;
+	width:200px;
+	padding-top:0px; 
+	padding-right:50px;
+	padding-bottom:50px;
+	padding-left:50px;
+}
+
+.ramallama{
+float: left;
+margin: 100px, 25px, 100px, 180px;
+font-size: 14px;
+padding-top:10px;
+padding-right:15px;
+padding-bottom:15px;
+padding-left:15px;
+line-height: 20px;
+}
+
+.lllls{
+	float: left;
+	margin: 100px, 25px, 100px, 180px;
+	font-size: 14px;
+	padding-top:10px;
+	padding-right:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	line-height: 20px;
+}
+
+article{
+	float:left;
+	width:500px;
+	padding-top:30px;
+	padding-right:10px;
+	padding-bottom:10px; 
+	padding-left:10px; 
+}
