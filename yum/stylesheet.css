@@ -131,10 +131,13 @@ h2{background:black;
 	
 	a {
 		text-decoration:none;
-		font-color:yellow;
+		color:gold;
 	}
 	
-		
+	a:hover {
+	  color: blue ;
+	  background-color: #def ;
+	}
 	
 
 
