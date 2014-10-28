@@ -73,7 +73,6 @@ h2{background:black;
 	font-size:20px;
 	text-transform:uppercase;
 	position:relative;
-	
 }
 	
 	.nav li{
@@ -84,7 +83,9 @@ h2{background:black;
 		text-transform:uppercase;
 		font-family:helvetica;
 		padding-top:20px;
-		margin:10px;		
+		margin:10px;	
+		letter-spacing:2px;
+		font-size:14px;	
 	}
 		
 	.left {
@@ -141,7 +142,38 @@ h2{background:black;
 	
 	h3, h4 {
 		text-transform:uppercase;
+		font-family:helvetica;
+		font-weight:bold;
+		letter-spacing:2px;
+		padding-top:0px;
+		padding-right:0px;
+		padding-bottom:10px;
+		padding-left:0px;
+		
 	}
+	
+	.italic{
+		font-style:italic;
+		text-transform:lowercase;
+		font-size:12px;
+	}
+	
+	.bold{
+		font-weight:bold;
+	}
+	
+	.ital{
+		font-style:italic;
+		font-size:12px;
+		font-family:helvetica;
+	}
+	
+	ol {
+		font-family:helvetica;
+		font-size:12px;
+	}
+	
+	
 
 
 
