@@ -129,6 +129,8 @@ width: 40%;
 	
 }
 
+
+
 h1{
 margin: 0;
 padding: 0;
@@ -165,6 +167,21 @@ position: relative;
 
 #menu-wrapper {
 background-color: #875c33;
+}
+
+#footer-follow {
+width: 200px;
+position: absolute;
+top: 100;
+right: 150px;
+display:inline;}
+
+#footer-contact {
+width: 200px;
+height: 400px;
+position: absolute;
+top: 100;
+left: 180px;
 }
 
 div {
