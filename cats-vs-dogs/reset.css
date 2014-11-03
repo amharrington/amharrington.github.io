@@ -55,6 +55,7 @@ h1 {
 }
 
 h4 {
+	font-family:'league_gothicCnRg';
 	font-weight:bold;
 	font-size:1.5em;
 	padding-top:20px;
@@ -161,4 +162,14 @@ h6 {
   }
 
 
-
+  @font-face {
+      font-family: 'league_gothicCnRg';
+      src: url('typefaces/leaguegothic-condensedregular-webfont.eot');
+      src: url('typefaces/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),
+           url('typefaces/leaguegothic-condensedregular-webfont.woff2') format('woff2'),
+           url('typefaces/leaguegothic-condensedregular-webfont.woff') format('woff'),
+           url('typefaces/leaguegothic-condensedregular-webfont.ttf') format('truetype'),
+           url('teypefaces/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  	}
