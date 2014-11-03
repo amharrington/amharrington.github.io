@@ -94,6 +94,21 @@ body {
 	width:960px;
 }
 
+@media screen and (max-width:600px) {
+    body { font-size:0.5em; }
+    p { font-size:1.8em; }
+    .dogs { float:none; width:90%; margin:0 1%; }
+    .cats { float:none; width:90%; margin:0 1%; }
+	#nav ul li { display:block; width:100%;}
+	#post-footer{clear:none;}
+  }
+
+h5 {
+	max-width:100%;
+}
+h6 {
+	max-width:100%;
+}
 .dogs{
 	float:left;
 	width:39%;
