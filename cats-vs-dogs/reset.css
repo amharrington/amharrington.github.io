@@ -153,6 +153,73 @@ h6 {
 	font-size:1.6em;
 }
 
+@media screen and (max-width:900px) {
+	#logo{width:90%;
+		
+		float:left;
+		padding:10px;}
+    body { font-size:0.5em; }
+    p { font-size:1.8em; }
+    .dogs { width:30%; margin:0 1%; }
+    .cats {  width:30%; margin:0 1%; }
+	#nav ul li { width:100%;}
+	#nav{border-top:4px;
+		border-bottom:4px;
+		width:100%;
+		}
+	#post-footer{clear:both;}
+	#hamburger{ 
+		height:20px;
+		width:50px;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+
+	}
+	
+	
+	
+@media screen and (max-width:600px) {
+	#logo{width:60%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+	img {clear:both;
+		width:60%;}
+    body { font-size:0.5em; }
+	.words{width:60%;}
+	.words2{width:60%;}
+    p { font-size:1.8em; }
+    .dogs { float:none; width:90%; margin:0 1%; }
+    .cats { float:none; width:90%; margin:0 1%; }
+	#nav ul li { display:none;}
+	#nav{border-top:0px;
+		border-bottom:0px;
+		width:40%;
+		}
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	
+	
+	#hamburger{ 
+		height:20px;
+		width:50px;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+
 @media screen and (max-width:400px) {
 	#logo{width:40%;
 		display:inline block;
