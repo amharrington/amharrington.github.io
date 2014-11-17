@@ -153,35 +153,7 @@ h6 {
 	font-size:1.6em;
 }
 
-@media screen and (max-width:900px) {
-	#logo{width:90%;
-		
-		float:left;
-		padding:10px;}
-    body { font-size:0.5em; }
-    p { font-size:1.8em; }
-    .dogs { width:30%; margin:0 1%; }
-    .cats {  width:30%; margin:0 1%; }
-	#nav ul li { width:100%;}
-	#nav{border-top:4px;
-		border-bottom:4px;
-		width:100%;
-		}
-	#post-footer{clear:both;}
-	#hamburger{ 
-		height:20px;
-		width:50px;
-	}
 
-	.bar{
-		height:5px;
-		width:30px;
-		background-color:black;
-		margin-bottom:3px;
-
-	}
-	
-	
 	
 @media screen and (max-width:600px) {
 	#logo{width:60%;
@@ -219,6 +191,190 @@ h6 {
 	
 	
 }
+
+
+@media screen and (max-width:550px) {
+	#logo{width:55%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+	img {clear:both;
+		width:55%;}
+    body { font-size:0.5em; }
+	.words{width:55%;}
+	.words2{width:55%;}
+    p { font-size:1.8em; }
+    .dogs { float:none; width:90%; margin:0 1%; }
+    .cats { float:none; width:90%; margin:0 1%; }
+	#nav ul li { display:none;}
+	#nav{border-top:0px;
+		border-bottom:0px;
+		width:35%;
+		}
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	
+	
+	#hamburger{ 
+		height:20px;
+		width:50px;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+@media screen and (max-width:500px) {
+	#logo{width:50%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+	img {clear:both;
+		width:50%;}
+    body { font-size:0.5em; }
+	.words{width:50%;}
+	.words2{width:50%;}
+    p { font-size:1.8em; }
+    .dogs { float:none; width:90%; margin:0 1%; }
+    .cats { float:none; width:90%; margin:0 1%; }
+	#nav ul li { display:none;}
+	#nav{border-top:0px;
+		border-bottom:0px;
+		width:30%;
+		}
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	
+	
+	#hamburger{ 
+		height:20px;
+		width:50px;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+@media screen and (max-width:430px) {
+	#logo{width:42%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+	img {clear:both;
+		width:42%;}
+    body { font-size:0.5em; }
+	.words{width:42%;}
+	.words2{width:42%;}
+    p { font-size:1.8em; }
+    .dogs { float:none; width:90%; margin:0 1%; }
+    .cats { float:none; width:90%; margin:0 1%; }
+	#nav ul li { display:none;}
+	#nav{border-top:0px;
+		border-bottom:0px;
+		width:22%;
+		}
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	
+	
+	#hamburger{ 
+		height:20px;
+		width:50px;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+
+@media screen and (max-width:420px) {
+	#logo{width:42%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+	img {clear:both;
+		width:42%;}
+    body { font-size:0.5em; }
+	.words{width:42%;}
+	.words2{width:42%;}
+    p { font-size:1.8em; }
+    .dogs { float:none; width:90%; margin:0 1%; }
+    .cats { float:none; width:90%; margin:0 1%; }
+	#nav ul li { display:none;}
+	#nav{border-top:0px;
+		border-bottom:0px;
+		width:22%;
+		}
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	
+	
+	#hamburger{ 
+		height:20px;
+		width:50px;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+@media screen and (max-width:410px) {
+	#logo{width:41%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+	img {clear:both;
+		width:41%;}
+    body { font-size:0.5em; }
+	.words{width:41%;}
+	.words2{width:41%;}
+    p { font-size:1.8em; }
+    .dogs { float:none; width:90%; margin:0 1%; }
+    .cats { float:none; width:90%; margin:0 1%; }
+	#nav ul li { display:none;}
+	#nav{border-top:0px;
+		border-bottom:0px;
+		width:21%;
+		}
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	
+	
+	#hamburger{ 
+		height:20px;
+		width:50px;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+
 
 @media screen and (max-width:400px) {
 	#logo{width:40%;
