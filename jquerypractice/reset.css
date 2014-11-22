@@ -1,0 +1,427 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF RESET - Start of Your CSS*/
+
+h1 {
+	text-align:center;
+	padding:20px;
+}
+
+h4 {
+	font-family:'league_gothicCnRg';
+	font-weight:bold;
+	font-size:1.5em;
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+}
+#nav a {
+	font-size:1.6em;
+	font-weight:bold;
+	padding:20px;
+	margin:55px;
+	color:black;
+	width:100%;
+	margin:0 auto;
+	text-decoration:none;
+	text-transform:uppercase;	
+}
+
+
+#nav ul li {
+	display:inline;
+	border:black;
+	margin:0 auto;
+}
+
+#nav{
+	padding:10px;
+	height:20px;
+	width:960px;
+	text-align:center;
+	border-top:4px solid black;
+	border-bottom:4px solid black;
+}
+
+
+body {
+	margin:0 auto;
+	width:960px;
+}
+
+
+h5 {
+	max-width:100%;
+}
+h6 {
+	max-width:100%;
+}
+.dogs{
+	float:left;
+	width:39%;
+	margin: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+ 
+.cats{
+	float:left;
+	width:39%;
+	margin: 20px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	}
+
+#post-footer{
+	clear:both;
+	border-top:4px solid black;
+}
+
+.imgcopy{
+	float:left;
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-left:30px;
+}
+
+.copyright {
+	float:right;
+	padding-top:20px;
+	padding-right:30px;
+	padding-bottom:20px;
+	padding-left:20px;
+	
+}
+
+.highlight{
+	color:red;
+}
+
+.bullet{
+	font-size:1.6em;
+}
+
+
+	
+@media screen and (max-width:600px) {
+	#logo{width:60%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+	img {clear:both;
+		width:60%;}
+    body { font-size:0.5em; }
+	.words{width:60%;}
+	.words2{width:60%;}
+    p { font-size:1.8em; }
+    .dogs { float:none; width:90%; margin:0 1%; }
+    .cats { float:none; width:90%; margin:0 1%; }
+	#nav ul li { display:none;}
+	#nav{border-top:0px;
+		border-bottom:0px;
+		width:40%;
+		}
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	
+	
+	#hamburger{ 
+		height:20px;
+		width:50px;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+
+
+@media screen and (max-width:550px) {
+	#logo{width:55%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+	img {clear:both;
+		width:55%;}
+    body { font-size:0.5em; }
+	.words{width:55%;}
+	.words2{width:55%;}
+    p { font-size:1.8em; }
+    .dogs { float:none; width:90%; margin:0 1%; }
+    .cats { float:none; width:90%; margin:0 1%; }
+	#nav ul li { display:none;}
+	#nav{border-top:0px;
+		border-bottom:0px;
+		width:35%;
+		}
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	
+	
+	#hamburger{ 
+		height:20px;
+		width:50px;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+@media screen and (max-width:500px) {
+	#logo{width:50%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+	img {clear:both;
+		width:50%;}
+    body { font-size:0.5em; }
+	.words{width:50%;}
+	.words2{width:50%;}
+    p { font-size:1.8em; }
+    .dogs { float:none; width:90%; margin:0 1%; }
+    .cats { float:none; width:90%; margin:0 1%; }
+	#nav ul li { display:none;}
+	#nav{border-top:0px;
+		border-bottom:0px;
+		width:30%;
+		}
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	
+	
+	#hamburger{ 
+		height:20px;
+		width:50px;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+@media screen and (max-width:430px) {
+	#logo{width:42%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+	img {clear:both;
+		width:42%;}
+    body { font-size:0.5em; }
+	.words{width:42%;}
+	.words2{width:42%;}
+    p { font-size:1.8em; }
+    .dogs { float:none; width:90%; margin:0 1%; }
+    .cats { float:none; width:90%; margin:0 1%; }
+	#nav ul li { display:none;}
+	#nav{border-top:0px;
+		border-bottom:0px;
+		width:22%;
+		}
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	
+	
+	#hamburger{ 
+		height:20px;
+		width:50px;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+
+@media screen and (max-width:420px) {
+	#logo{width:42%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+	img {clear:both;
+		width:42%;}
+    body { font-size:0.5em; }
+	.words{width:42%;}
+	.words2{width:42%;}
+    p { font-size:1.8em; }
+    .dogs { float:none; width:90%; margin:0 1%; }
+    .cats { float:none; width:90%; margin:0 1%; }
+	#nav ul li { display:none;}
+	#nav{border-top:0px;
+		border-bottom:0px;
+		width:22%;
+		}
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	
+	
+	#hamburger{ 
+		height:20px;
+		width:50px;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+@media screen and (max-width:410px) {
+	#logo{width:41%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+	img {clear:both;
+		width:41%;}
+    body { font-size:0.5em; }
+	.words{width:41%;}
+	.words2{width:41%;}
+    p { font-size:1.8em; }
+    .dogs { float:none; width:90%; margin:0 1%; }
+    .cats { float:none; width:90%; margin:0 1%; }
+	#nav ul li { display:none;}
+	#nav{border-top:0px;
+		border-bottom:0px;
+		width:21%;
+		}
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	
+	
+	#hamburger{ 
+		height:20px;
+		width:50px;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+
+
+@media screen and (max-width:400px) {
+	#logo{width:40%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+	img {clear:both;
+		width:40%;}
+    body { font-size:0.5em; }
+	.words{width:40%;}
+	.words2{width:40%;}
+    p { font-size:1.8em; }
+    .dogs { float:none; width:90%; margin:0 1%; }
+    .cats { float:none; width:90%; margin:0 1%; }
+	#nav ul li { display:none;}
+	#nav{border-top:0px;
+		border-bottom:0px;
+		width:20%;
+		}
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	
+	
+	#hamburger{ 
+		height:20px;
+		width:50px;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+
+
+  @font-face {
+      font-family: 'league_gothicCnRg';
+      src: url('typefaces/leaguegothic-condensedregular-webfont.eot');
+      src: url('typefaces/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),
+           url('typefaces/leaguegothic-condensedregular-webfont.woff2') format('woff2'),
+           url('typefaces/leaguegothic-condensedregular-webfont.woff') format('woff'),
+           url('typefaces/leaguegothic-condensedregular-webfont.ttf') format('truetype'),
+           url('teypefaces/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  	}

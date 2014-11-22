@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}/Users/leesocer3/amharrington.github.io/final/reset.css
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF RESET - Start of Your CSS*/
+
+h1 {
+	text-align:center;
+	padding:20px;
+	background-color:white;
+}
+
+
+#nav a {
+	font-size:1em;
+	letter-spacing:;
+	padding:20px;
+	margin:55px;
+	color:white;
+	width:100%;
+	margin:0 auto;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-family:helvetica;	
+}
+
+
+#nav ul li {
+	display:inline;
+	margin:0 auto;
+}
+
+#nav{
+	padding:10px;
+	height:20px;
+	width:960px;
+	text-align:center;	
+}
+#work a {
+	text-decoration:none;
+	text-align:left;
+}
+
+
+ul.gridtop {
+	list-style: none;
+	font-size: 0px;
+}
+
+h2 {
+	font-size:3em;
+	text-align:center;
+	padding-top:3%;
+	font-family:helvetica;
+}
+
+h4 {
+	font-size:1.5em;
+	text-align:center;
+	padding-top:2%;
+}
+
+#me{
+	clear:both;
+}
+#nav{
+	background-color:darkslategray;
+	width:100%;
+}
+#blurb{
+	background-color:darkseagreen;
+	width:100%;
+} 
+#work{
+	background-color:beige;
+	width:100%;
+}
+
+#me{
+	background-color:ivory;
+	width:100%;
+}
+
+#grid{
+	background-color:beige;
+	width:100%;
+}
+
+.images{
+	margin:0 auto;
+	width:80%;
+	background-color:beige;
+}	
+
+.project1, .project2, .project3, .project4, .project5, .project6 {
+	float:left;
+	padding:5%;
+	background-color:beige;
+}
+
+#middle{
+	margin: 0 auto;
+	height:100%;
+	padding-left:6%;
+}
+
+body{
+	background-color:beige;
+}
+
+html, body { 
+   height: 100%;
+}
+
+
