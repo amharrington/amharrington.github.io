@@ -66,7 +66,7 @@ h1 {
 	margin:0 auto;
 	text-decoration:none;
 	text-transform:uppercase;
-	font-family:helvetica;	
+	font-family:sans-serif;	
 }
 
 
@@ -93,16 +93,43 @@ ul.gridtop {
 }
 
 h2 {
-	font-size:3em;
+	font-size:1.5em;
 	text-align:center;
 	padding-top:3%;
-	font-family:helvetica;
+	font-family:sans-serif;
 }
 
 h4 {
 	font-size:1.5em;
 	text-align:center;
 	padding-top:2%;
+	font-family:sans-serif;
+}
+
+h6 {
+	font-size:.7em;
+	text-align:center;
+	padding-top:1%;
+	padding-bottom:3%;
+	font-family:sans-serif;
+}
+
+h3 {
+	font-size:1.5em;
+	text-align:center;
+	font-family:sans-serif;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+
+h5 {
+	background-color:ivory;
+}
+
+.headerwrapper{
+	position:fixed;
+	width:100%;
+	height:5px;
 }
 
 #me{
@@ -132,7 +159,7 @@ h4 {
 }
 
 .images{
-	margin:0 auto;
+	text-align:center;
 	width:80%;
 	background-color:beige;
 }	
@@ -146,7 +173,39 @@ h4 {
 #middle{
 	margin: 0 auto;
 	height:100%;
-	padding-left:6%;
+	padding-left:22%;
+}
+
+#res{
+	margin:0 auto;
+	width:100%;
+	background-color:ivory;
+}
+
+#scroll{
+	text-align:center;
+}
+.expand{
+	position:relative;
+	text-align:center;
+	padding-top:3%;
+	padding-bottom:3%;
+}
+
+.about, .skills, .contact{
+	position: relative;
+	float: left;
+	margin: 10px 10px;
+	width: 300px;
+	background-color:ivory;
+}
+
+.bottom{
+	padding-top:3%;
+	padding-bottom:3%;
+	padding-left:19%;
+	text-align:center;
+	background-color:ivory;	
 }
 
 body{
