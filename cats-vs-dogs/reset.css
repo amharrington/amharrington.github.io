@@ -176,6 +176,80 @@ h6 {
 
 
 /*media queries start here*/
+@media screen and (max-width:950px) {
+	#logo{width:100%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+    body { font-size:0.5em; }
+    p { font-size:1.8em; }
+    .dogs {float:left; width:28%; margin:0 1%; padding-right:13%;}
+    .cats {float:left; width:28%; margin:0 1%; }
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	#nav{
+		padding:10px;
+		height:20px;
+		width:900px;
+		text-align:center;
+		border-top:none;
+		border-bottom:none;
+	}
+	
+	
+	
+	#hamburger{ 
+		display:none;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+
+
+@media screen and (max-width:910px) {
+	#logo{width:100%;
+		display:inline block;
+		float:left;
+		padding:10px;}
+    body { font-size:0.5em; }
+    p { font-size:1.8em; }
+    .dogs {float:left; width:28%; margin:0 1%; padding-right:13%;}
+    .cats {float:left; width:28%; margin:0 1%; }
+	#post-footer{clear:none;}
+	.copyright{float:none;}
+	#nav{
+		padding:10px;
+		height:20px;
+		width:900px;
+		text-align:center;
+		border-top:none;
+		border-bottom:none;
+	}
+	
+	
+	
+	#hamburger{ 
+		display:none;
+	}
+
+	.bar{
+		height:5px;
+		width:30px;
+		background-color:black;
+		margin-bottom:3px;
+	}
+	
+	
+}
+
+
 @media screen and (max-width:901px) {
 	#logo{width:100%;
 		display:inline block;
