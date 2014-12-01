@@ -124,6 +124,7 @@ h6 {
 }
 
 h3 {
+	display:none;
 	font-size:1.5em;
 	text-align:center;
 	font-family:sans-serif;
@@ -220,18 +221,18 @@ h1{
 
 /*resume section*/
 
-.itsme, .skills, .contact{
-	float: left;
-	margin: 10px 10px;
-	width: 300px;
-	background-color:beige;
+figure.effect-julia, .skills, .contact{
+	
+	display:inline;
+	margin:1%;
+	width: 100%;
 }
 
 
 #me{
 	margin:0 auto;
 	background-color: #2f3238;
-	height:700px;
+	height:900px;
 	width:100%;
 }
 
@@ -245,6 +246,8 @@ h1{
 	margin:0 auto;
 	width:100%;
 	padding-top:3%;
+	padding-right:20%;
+	padding-left:20%;
 	padding-bottom:3%;
 	background-color: #2f3238;	
 }
@@ -264,7 +267,6 @@ html, body {
 /*---------------*/
 
 figure.effect-julia {
-	margin:0 auto;
 	background: #2f3238;
 	position:relative;
 	max-width:310px;
@@ -272,8 +274,7 @@ figure.effect-julia {
 }
 
 figure.effect-julia img {
-	padding-top:60px;
-	text-align:center;
+	padding-top:10%;
 	max-width: 310px;
 	height: 400px;
 	opacity:4s;
