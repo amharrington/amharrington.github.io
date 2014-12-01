@@ -49,43 +49,54 @@ table {
 
 /* END OF RESET - Start of Your CSS*/
 
-h1 {
+
+.ah{
+	width:50px;
+	height:50px;
 	text-align:center;
-	padding:20px;
-	background-color:white;
 }
 
 
 #nav a {
+	padding:2%;
+	text-align:center;
 	font-size:1em;
-	letter-spacing:;
-	padding:20px;
-	margin:55px;
-	color:white;
+	color:beige;
 	width:100%;
-	margin:0 auto;
 	text-decoration:none;
 	text-transform:uppercase;
 	font-family:sans-serif;	
+	display:inline;
 }
 
 
 #nav ul li {
+	margin:10px;
 	display:inline;
-	margin:0 auto;
+	width:100%;
 }
 
 #nav{
 	padding:10px;
 	height:20px;
-	width:960px;
-	text-align:center;	
-}
-#work a {
-	text-decoration:none;
-	text-align:left;
+	width:100%;
+	text-align:center;
+	background-color:darkslategray;
 }
 
+.headerwrapper{
+	position:fixed;
+	width:100%;
+	height:100px;
+	background-color:darkslategray;	
+	
+}
+
+header{
+	position:fixed;
+	background-color:darkslategray;
+	width:100%;
+}
 
 ul.gridtop {
 	list-style: none;
@@ -97,6 +108,7 @@ h2 {
 	text-align:center;
 	padding-top:3%;
 	font-family:sans-serif;
+	text-shadow:5px 5px 0px #eee, 7px 7px 0px #707070;
 }
 
 h4 {
@@ -126,23 +138,20 @@ h5 {
 	background-color:ivory;
 }
 
-.headerwrapper{
-	position:fixed;
-	width:100%;
-	height:5px;
-}
 
 #me{
 	clear:both;
 }
-#nav{
-	background-color:darkslategray;
-	width:100%;
-}
+
 #blurb{
 	background-color:darkseagreen;
 	width:100%;
+	padding-top:100px;
 } 
+
+.green{
+	background-color:darkseagreen;
+}
 #work{
 	background-color:beige;
 	width:100%;
@@ -177,7 +186,8 @@ h5 {
 }
 
 #res{
-	margin:0 auto;
+	position:absolute;
+	text-align:center;
 	width:100%;
 	background-color:ivory;
 }
@@ -186,7 +196,6 @@ h5 {
 	text-align:center;
 }
 .expand{
-	position:relative;
 	text-align:center;
 	padding-top:3%;
 	padding-bottom:3%;
@@ -203,8 +212,8 @@ h5 {
 .bottom{
 	padding-top:3%;
 	padding-bottom:3%;
-	padding-left:19%;
-	text-align:center;
+	
+	margin:0 auto;
 	background-color:ivory;	
 }
 
