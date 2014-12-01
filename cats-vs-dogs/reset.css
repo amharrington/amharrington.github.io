@@ -196,11 +196,6 @@ h6 {
 		border-bottom:none;
 	}
 	
-	
-	
-	#hamburger{ 
-		display:none;
-	}
 
 	.bar{
 		height:5px;
@@ -208,7 +203,6 @@ h6 {
 		background-color:black;
 		margin-bottom:3px;
 	}
-	
 	
 }
 
@@ -246,7 +240,6 @@ h6 {
 		margin-bottom:3px;
 	}
 	
-	
 }
 
 
@@ -272,9 +265,6 @@ h6 {
 	
 	
 	
-	#hamburger{ 
-		display:none;
-	}
 
 	.bar{
 		height:5px;
@@ -311,6 +301,7 @@ h6 {
 	
 	
 	#hamburger{ 
+		display:visible;
 		height:20px;
 		width:50px;
 	}
