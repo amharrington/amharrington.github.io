@@ -143,13 +143,16 @@ h5 {
 
 #blurb{
 	background: #2f3238;
-	height:700px;
+	height:100%;
 	width:100%;
 	padding-top:100px;
 	margin:0 auto;
 } 
 
-.green{
+3
+
+#box{
+	position:relative;
 	border:double;
 	color:beige;
 	margin:0 auto;
@@ -175,26 +178,26 @@ h1{
 /*section for my work*/
 
 #work{
-	background-color:beige;
-	height:700px;
+	background-color:#2f3238;
+	height:100%;
 	width:100%;
 }
 
 #grid{
-	background-color:beige;
+	background-color:#2f3238;
 	width:100%;
 }
 
 .images{
 	text-align:center;
 	width:80%;
-	background-color:beige;
+	background-color:#2f3238;
 }	
 
 .project1, .project2, .project3, .project4, .project5, .project6 {
 	float:left;
 	padding:5%;
-	background-color:beige;
+	background-color:#2f3238;
 }
 
 
@@ -216,6 +219,7 @@ h1{
 	text-align:center;
 	padding-top:3%;
 	padding-bottom:3%;
+	background-color:#2f3238;
 }
 
 
@@ -223,8 +227,8 @@ h1{
 
 figure.effect-julia, .skills, .contact{
 	
-	display:inline;
-	margin:1%;
+	float:left;
+	margin:2%;
 	width: 100%;
 }
 
@@ -232,7 +236,7 @@ figure.effect-julia, .skills, .contact{
 #me{
 	margin:0 auto;
 	background-color: #2f3238;
-	height:900px;
+	height:100%;
 	width:100%;
 }
 
@@ -245,15 +249,15 @@ figure.effect-julia, .skills, .contact{
 .bottom{
 	margin:0 auto;
 	width:100%;
-	padding-top:3%;
-	padding-right:20%;
-	padding-left:20%;
+	padding-top:20%;
+	padding-right:0%;
+	padding-left:15%;
 	padding-bottom:3%;
 	background-color: #2f3238;	
 }
 
 body{
-	background-color:beige;
+	background-color:#2f3238;
 }
 
 html, body { 
@@ -267,14 +271,13 @@ html, body {
 /*---------------*/
 
 figure.effect-julia {
-	background: #2f3238;
 	position:relative;
 	max-width:310px;
 	height:400px;
 }
 
 figure.effect-julia img {
-	padding-top:10%;
+	padding-top:5%;
 	max-width: 310px;
 	height: 400px;
 	opacity:4s;
@@ -287,22 +290,22 @@ figure.effect-julia img {
 figure.effect-julia figcaption {
 	position:absolute;
 	text-align: left;
-	top:0px;
+	top:-10px;
+	width:310px;
 	
 }
 
 figure.effect-julia h2 {
-	position: relative;
+	text-align:center;
 	padding: 0.5em 0;
 	color:  beige;
 	font-family:sans-serif;
-	font-size:15px;
-	padding-top:15px;
-	padding-bottom:300px;
+	padding-bottom:350px;
+	padding:;
 }
 
 figure.effect-julia p {
-	display: inline-block;
+	display:none;
 	margin: 0 0 0.25em;
 	padding: 0.4em 1em;
 	background: rgba(255,255,255,0.9);
@@ -332,27 +335,32 @@ figure.effect-julia p:nth-of-type(3) {
 }
 
 figure.effect-julia:hover p:first-child {
+	display:block;
 	-webkit-transition-delay: 0s;
 	transition-delay: 0s;
 }
 
 figure.effect-julia:hover p:nth-of-type(2) {
+	display:block;
 	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
 }
 
 figure.effect-julia:hover p:nth-of-type(3) {
+	display:block;
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
 
 figure.effect-julia:hover img {
+	display:block;
 	opacity: 0.4;
 	-webkit-transform: scale3d(1.1,1.1,1);
 	transform: scale3d(1.1,1.1,1);
 }
 
 figure.effect-julia:hover p {
+	display:block;
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
