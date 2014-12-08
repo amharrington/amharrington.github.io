@@ -143,13 +143,18 @@ h5 {
 
 #blurb{
 	background: #2f3238;
-	height:100%;
+	height:40%;
 	width:100%;
 	padding-top:100px;
 	margin:0 auto;
 } 
-
-3
+#boxbig{
+	border:double;
+	color:beige;
+	margin:0 auto;
+	width:600px;
+	height:100px;
+}
 
 #box{
 	position:relative;
@@ -165,6 +170,7 @@ h1{
 	text-align:center;
 	padding:40px;
 	font-family:sans-serif;
+	line-spacing:;
 }
 
 
@@ -214,6 +220,7 @@ h1{
 
 #scroll{
 	text-align:center;
+
 }
 .expand{
 	text-align:center;
@@ -290,12 +297,13 @@ figure.effect-julia img {
 figure.effect-julia figcaption {
 	position:absolute;
 	text-align: left;
-	top:-10px;
+	top:-50px;
 	width:310px;
 	
 }
 
 figure.effect-julia h2 {
+	font-weight:100;
 	text-align:center;
 	padding: 0.5em 0;
 	color:  beige;
