@@ -142,7 +142,7 @@ h5 {
 }
 
 #blurb{
-	background-image: url(Images/compplate.jpg);
+	background-image: url("Images/compplate.jpg");
 	background: #2f3238;
 	height:40%;
 	width:100%;
