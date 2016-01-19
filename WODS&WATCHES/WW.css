@@ -50,13 +50,6 @@ table {
 /* END OF RESET - Start of Your CSS*/
 
 
-html { 
-  background: url(images/compplate.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 .ah{
 	width:50px;
@@ -144,9 +137,8 @@ h5 {
 	background-color:ivory;
 }
 
-#bgimage{
-	height: 342in;
-	width: 100%;
+.compplate{
+	max-height: 340px;
 }
 
 #me{
@@ -161,23 +153,7 @@ h5 {
 	padding-top:100px;
 	margin:0 auto;
 } 
-#boxbig{
-	border:double;
-	color:beige;
-	margin:0 auto;
-	width:600px;
-	height:100px;
-}
 
-#box{
-	position:relative;
-	border:double;
-	color:beige;
-	margin:0 auto;
-	width:600px;
-	height:100px;
-
-}
 
 h1{
 	text-align:center;
